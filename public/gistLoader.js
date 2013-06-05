@@ -1,4 +1,4 @@
-$(document.ready(function() {
+$(document).ready(function() {
     
     var gistBloggerPath = "https://rawgithub.com/rorygibson/gist-Blogger/master/public/gistBlogger.js";
     
@@ -18,4 +18,4 @@ $(document.ready(function() {
         }
     }
 
-}));
+});
