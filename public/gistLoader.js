@@ -1,8 +1,7 @@
-(function() {
+$(document.ready(function() {
     
-    var gistBloggerPath = "https://raw.github.com/moski/gist-Blogger/master/public/gistBlogger.js";
-
-    // Initialize the load the main script.
+    var gistBloggerPath = "https://rawgithub.com/rorygibson/gist-Blogger/master/public/gistBlogger.js";
+    
     try {
         initGist();
     } catch(e) {
@@ -18,4 +17,5 @@
             theBody.appendChild(elem);
         }
     }
-})();
+
+}));
